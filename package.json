@@ -1,11 +1,11 @@
 {
-  "name": "my-project",
+  "name": "rent-yacht",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/my-project/",
+    "build": "vite build --base=/rent-yacht/",
     "preview": "vite preview"
   },
   "devDependencies": {
