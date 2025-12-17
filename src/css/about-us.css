@@ -1,0 +1,127 @@
+.About-us-container {
+  margin-bottom: 80px;
+}
+
+.About-us-description {
+  padding: 40px 20px 40px 20px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  background: #fbfbfb;
+}
+
+.About-us-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 40px;
+  max-width: 295px;
+}
+
+.About-us-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 20px;
+}
+
+.About-us-text-two {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: #040306;
+  opacity: 0.4;
+}
+
+.About-images {
+  max-width: 100%;
+  width: 335px;
+  height: 395px;
+  border-bottom-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  display: block;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .About-us-container {
+    margin-bottom: 150px;
+  }
+
+  .About-us-description {
+    padding: 50px 32px 50px 32px;
+  }
+
+  .About-us-title {
+    font-size: 48px;
+    margin-bottom: 50px;
+    max-width: 537px;
+  }
+
+  .About-us-text {
+    font-size: 23px;
+    max-width: 389px;
+  }
+
+  .About-us-text-two {
+    font-size: 13px;
+    line-height: 1.15;
+    max-width: 385px;
+  }
+
+  .About-images {
+    width: 704px;
+    height: 470px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .About-us-description {
+    padding: 50px 50px 100px 50px;
+    max-width: 1180px;
+    display: flex;
+    gap: 189px;
+  }
+
+  .About-us-title {
+    max-width: 537px;
+  }
+
+  .About-us-text {
+    max-width: 354px;
+    margin-bottom: 20px;
+  }
+
+  .About-us-text-two {
+    max-width: 354px;
+  }
+
+  .About-images {
+    width: 1180px;
+    height: 470px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .About-us-description {
+    max-width: 1340px;
+    gap: 299px;
+  }
+
+  .About-us-text {
+    max-width: 404px;
+  }
+
+  .About-us-text-two {
+    max-width: 404px;
+  }
+
+  .About-images {
+    width: 1340px;
+    height: 470px;
+  }
+}

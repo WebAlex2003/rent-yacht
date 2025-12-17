@@ -1,0 +1,157 @@
+.reviews-section {
+  padding-bottom: 80px;
+}
+
+.reviews {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin-bottom: 25px;
+}
+
+.reviews-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+  opacity: 0.4;
+}
+
+.reviews-item {
+  background-color: #fbfbfb;
+  border-radius: 24px;
+  padding: 32px 0;
+}
+
+.reviews-subtitul {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.reviews-item-text {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+  padding: 0 16px;
+}
+
+.reviews-img {
+  border-radius: 72%;
+  display: block;
+  margin: auto;
+}
+
+.one {
+  display: none;
+}
+
+.two {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-section {
+    padding-bottom: 150px;
+  }
+
+  .reviews {
+    font-size: 48px;
+    width: 704px;
+  }
+
+  .reviews-text {
+    width: 571px;
+    font-size: 14px;
+    line-height: 1.29;
+    margin: 0 auto;
+  }
+
+  .reviews-list {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+  }
+
+  .reviews-item {
+    padding: 32px 16px;
+  }
+
+  .reviews-item-text {
+    width: 296px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .wax {
+    width: 304px;
+    padding: 0;
+  }
+
+  .reviews-img {
+    display: flex;
+  }
+
+  .one {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews {
+    width: 854px;
+    margin: 0 auto 25px;
+  }
+
+  .reviews-text {
+    width: 571px;
+    margin: 0 auto 75px;
+  }
+
+  .reviews-item {
+    width: 376px;
+    padding: 32px 28px;
+  }
+
+  .two {
+    display: block;
+  }
+
+  .reviews-item-text {
+    width: 320px;
+  }
+
+  .reviews-list {
+    gap: 26px;
+  }
+
+  .trachuk {
+    padding-left: 13.5px;
+    padding-right: 13.5px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reviews-list {
+    gap: 32px;
+  }
+
+  .reviews-item {
+    width: 392px;
+    padding: 32px 36px;
+  }
+}
